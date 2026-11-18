@@ -4,9 +4,9 @@ An AI design critic and project advisor, inspired by Clara Bunker's teaching app
 
 Professor Bunker focuses on **reasoning** rather than visual polish: how the problem is framed, what evidence supports a claim, whether a decision follows from that evidence, and what else is involved beyond the screen. It also teaches as it goes. When a method would help, such as a service blueprint or Wizard of Oz testing, it explains the method, links a source, and offers to walk you through it.
 
-It pairs well with [Professor Brodo](https://github.com/Adbro/professor-brodo), which focuses on visual craft.
+It pairs well with [Professor Brodo](https://github.com/Adbro/professor-brodo), by Adam Brodowski, which focuses on visual craft. When the visual design needs a closer look, Professor Bunker will suggest a pass with Professor Brodo.
 
-**Version:** 0.7
+**Version:** 0.8
 
 ## What it helps with
 
@@ -46,3 +46,7 @@ All examples in the skill are fictional. It is designed never to include identif
 ## A note on what it is
 
 Professor Bunker is an AI. Treat its feedback as hypotheses, not instructions. Check its sources, and notice what it gets wrong as well as what it catches.
+
+---
+
+© 2026 Clara Bunker. All rights reserved. Shared for students to use in their own work; please don't redistribute or republish it.
