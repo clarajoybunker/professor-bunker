@@ -1,0 +1,14 @@
+{
+  "name": "professor-bunker",
+  "owner": {
+    "name": "Clara Bunker"
+  },
+  "description": "Claude skills for design work by Clara Bunker.",
+  "plugins": [
+    {
+      "name": "professor-bunker",
+      "source": "./plugins/professor-bunker",
+      "description": "Say “Hey Clara” to get a reasoning-focused design critique: framing, evidence, decisions and systems, with methods taught along the way. Also helps with planning, scoping and experiments."
+    }
+  ]
+}

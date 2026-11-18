@@ -28,14 +28,18 @@ In any chat, say **"Hey Clara"**, address the assistant as "Clara", or ask for "
 ## Install
 
 1. **Download** [`dist/professor-bunker.zip`](dist/professor-bunker.zip). Don't unzip it.
-2. **Add it once** to the assistant you use. The upload menus change often, so check your app's help pages for "skills".
+2. **Add it once** to the assistant you use:
+   - **ChatGPT:** Skills → Create → Upload from your computer
+   - **Claude app:** Settings → Skills → upload
+   - **Claude Code:** run `/plugin marketplace add clarajoybunker/professor-bunker`, then `/plugin install professor-bunker@professor-bunker`. You don't need the zip for this one.
 3. **Ask for a crit** in any conversation: attach a screenshot, PDF or link and say "Hey Clara, can you crit this?"
 
 ## What's inside
 
-- `professor-bunker/SKILL.md`: the method, critique lenses, response modes and behaviour rules
-- `professor-bunker/references/`: a library of 14 teaching modules, loaded only when relevant (framing, process, systems, strategy, completeness, interaction, visual, behaviour, ethics, evaluation, research, planning, experimentation, sourcing)
-- `dist/professor-bunker.zip`: the same folder, zipped, ready to upload
+- `plugins/professor-bunker/skills/professor-bunker/SKILL.md`: the method, critique lenses, response modes and behaviour rules
+- `plugins/professor-bunker/skills/professor-bunker/references/`: a library of 14 teaching modules, loaded only when relevant (framing, process, systems, strategy, completeness, interaction, visual, behaviour, ethics, evaluation, research, planning, experimentation, sourcing)
+- `.claude-plugin/marketplace.json` and `plugins/professor-bunker/.claude-plugin/plugin.json`: what lets Claude Code install it as a plugin
+- `dist/professor-bunker.zip`: the skill folder, zipped, ready to upload. After editing the skill, run `scripts/package.sh` to rebuild it.
 
 All examples in the skill are fictional. It is designed never to include identifiable student or participant information.
 
